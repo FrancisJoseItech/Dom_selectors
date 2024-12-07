@@ -1,0 +1,50 @@
+<!--
+JS Assignment-3_ DOM Selectors
+Instructions: Create an HTML file (index.html) and a JavaScript file (script.js).
+ Use JavaScript selectors (getElementById, getElementsByClassName, getElementsByTagName, querySelector, and querySelectorAll)
+to select and log elements. No DOM manipulation is required. Only log the selected elements to the console. Upload the code
+to GitHub and share the repository link. HTML Setup: In your index.html, create the following structure: An h1 element with
+an id of main-title. A div with a class of container. Inside the container div, add: Two section elements, each with the class section.
+Each section should contain two p elements with some text. Three button elements with the class btn.
+Tasks Using Selectors: Using getElementById: Select the h1 element with the id of main-title and log it to the console.
+Using getElementsByClassName: Select all elements with the class container and log them to the console.
+Select all elements with the class section and log them to the console. 
+Using getElementsByTagName: Select all p elements and log them to the console.
+ Using querySelector: Select the first button with the class btn and log it to the console.
+  Select the first section element and log it to the console.
+   Using querySelectorAll: Select all button elements with the class btn and log them to the console.
+Select all p elements within the container div and log them to the console.
+ Submission: Push your code to a GitHub repository. Share the repository link.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="main-title">This is the main title</h1>
+
+    <div class="container">
+        <section class="section">
+            <p>This is the para 1 in section 1</p>
+            <p>This is the para 2 in section 1</p>
+        </section>
+
+        <section class="section"></section>
+            <p>This is the para 1 in section 2</p>
+            <p>This is the para 2 in section 2</p>
+        </section>
+
+        <button class="btn">Button 1</button>
+        <button class="btn">Button 1</button>
+        <button class="btn">Button 1</button>
+        
+    </div>
+
+    <!-- Linking the JavaScript file -->
+  <script src="script.js"></script>
+</body>
+</html>
